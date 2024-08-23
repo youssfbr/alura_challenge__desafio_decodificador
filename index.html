@@ -5,25 +5,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Decodificador de Texto</title>
+  <link rel="stylesheet" href="assets/css/style.css">
  </head>
  <body>
-  <main>    
-    <div>
-      <img src="assets/img/logo_alura.png" alt="Logo da Alura">
-      <input type="text" value="Digite seu texto">
-  
-      <img src="assets/img/exclamacao.png" alt="icone exclamação">
-      <p>Apenas letras minúsculas e sem acento.</p>
-      
-      <button>Criptografar</button>
-      <button>Descriptografar</button>
-    </div>
+  <main class="container">
+    
+    <section class="container__content">
 
-    <div>
+      <div class="logo">
+        <img src="assets/img/logo_alura.png" alt="Logo da Alura">
+      </div>
+
+      <div class="test">
+        <input type="text" class="test__title" value="Digite seu texto">
+
+        <div class="test1">
+          <img class="foto" src="assets/img/exclamacao.png" alt="icone exclamação">
+          <p>Apenas letras minúsculas e sem acento.</p>
+        </div>
+
+        <div  class="buttons">
+          <button class="button__left">Criptografar</button>
+          <button class="button__right">Descriptografar</button>
+        </div>  
+      </div>
+    </section>
+
+    <div class="container__right">
       <img src="assets/img/mensagem_nao_encontrada.svg" alt="Foto de imagem de mensagem não encontrada">
-      <div>
-        <p>Nenhuma mensagem encontrada</p>
-        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+      <div class="container__right__texts">
+        <p class="container__right__title">Nenhuma mensagem encontrada</p>
+        <p class="container__right__para">Digite um texto que você deseja criptografar ou descriptografar.</p>
       </div>
     </div>    
   </main>

@@ -61,11 +61,16 @@ body {
   line-height: 150%;
   color: #0A3871;
   background-color: #F3F5FC;
+  background-color: #ccc;
+  border-radius: 10px;
   border: none;  
   margin-bottom: 630px;
+  padding: 0 10px 0 10px;
+  
   font-weight: 300;  
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .container__left__warn {
@@ -92,6 +97,7 @@ body {
   color: white;
   font-size: 16px;
   font-weight: 300;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 #button__right {
@@ -103,6 +109,7 @@ body {
   color: #0A3871;
   font-size: 16px;
   border: solid 1px blue;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .button__decrypter {
@@ -114,6 +121,7 @@ body {
   background-color: #F3F5FC;  
   color: #0A3871;
   font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .container__right__texts {

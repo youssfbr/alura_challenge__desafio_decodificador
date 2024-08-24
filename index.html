@@ -17,7 +17,7 @@
       </div>
 
       <div class="container__left">
-        <input type="text" class="container__left__title" value="Digite seu texto">
+        <input type="text" id="inserted-text" class="container__left__title" value="Digite seu texto">
 
         <div class="container__left__warn">
           <img  src="assets/img/exclamacao.png" alt="icone exclamação">
@@ -25,8 +25,8 @@
         </div>
 
         <div  class="container__left__buttons">
-          <button class="button__left" onclick="criptografar()">Criptografar</button>
-          <button id="button__right">Descriptografar</button>
+          <button class="button__left" onclick="encrypt()">Criptografar</button>
+          <button id="button__right" onclick="decrypt()">Descriptografar</button>
         </div>  
       </div>
     </section>
@@ -36,7 +36,7 @@
       <div id="container__right__to__encrypt">
         <img src="assets/img/mensagem_nao_encontrada.svg" alt="Foto de imagem de mensagem não encontrada">
         <div class="container__right__texts">
-          <p class="container__right__title">Nenhuma mensagem encontrada</p>
+          <p class="container__right__title">Nenhuma mensagem encontrada</p>          
           <p class="container__right__paragraph">Digite um texto que você deseja criptografar ou descriptografar.</p>
         </div>        
       </div>
@@ -44,9 +44,9 @@
       <div id="container__right__to__decrypt">
         <div class="container__right__to__decrypt__content">
           <div>
-            <p id="container__right__to__text__decrypt">dfasdfadsf sgsfdgsfdgs fg sfg sfgsf</p>        
+            <p id="container__right__to__text__decrypt"></p>        
           </div>          
-          <button class="button__decrypter" onclick="copiar()">Copiar</button>
+          <button class="button__decrypter" onclick="copy()">Copiar</button>
         </div>
       </div>
 
@@ -55,16 +55,6 @@
   
   <footer>TODO rodapé</footer>  
  
-  <script>
-    function criptografar() {
-      document.getElementById("container__right__to__encrypt").style.display = "none";
-      document.getElementById("container__right__to__decrypt").style.display = "block";
-      document.getElementById("button__right").style.background = "white";      
-    }
-
-    function copiar() {
-      document.getElementById("container__right__to__text__decrypt").innerHTML = "Nenhuma Mensagem";
-    }
-  </script>
+  <script src="assets/js/main.js"></script>
  </body>
  </html>

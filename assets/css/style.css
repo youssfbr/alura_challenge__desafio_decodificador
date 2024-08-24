@@ -94,12 +94,24 @@ body {
   font-weight: 300;
 }
 
-.button__right {
+#button__right {
   width: 328px;
   height: 67px;
   border-radius: 24px;
   background-color: #D8DFE8;  
   border: solid 1px #0A3871;
+  color: #0A3871;
+  font-size: 16px;
+  border: solid 1px blue;
+}
+
+.button__decrypter {
+  border: solid 1px #0A3871;
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  background-color: #FFF;  
+  background-color: #F3F5FC;  
   color: #0A3871;
   font-size: 16px;
 }
@@ -116,6 +128,24 @@ body {
   margin-bottom: 20px;   
 }
 
-.container__right__para {
+.container__right__paragraph {
   padding: 0 10px;  
+}
+
+#container__right__to__encrypt {
+ display: block;
+}
+
+#container__right__to__decrypt {
+  display: none;  
+  margin: 10%;  
+  font-size: 24px;  
+}
+
+.container__right__to__decrypt__content {
+  height: 870px;
+  
+  display: flex;
+  flex-direction: column;  
+  justify-content: space-between;
 }

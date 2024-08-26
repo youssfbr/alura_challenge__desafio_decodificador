@@ -100,6 +100,10 @@ body {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
+.button__left:hover {
+  cursor: pointer;
+}
+
 #button__right {
   width: 328px;
   height: 67px;
@@ -112,6 +116,10 @@ body {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
+#button__right:hover {
+  cursor: pointer;
+}
+
 .button__decrypter {
   border: solid 1px #0A3871;
   width: 328px;
@@ -122,6 +130,10 @@ body {
   color: #0A3871;
   font-size: 16px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.button__decrypter:hover {
+  cursor: pointer;
 }
 
 .container__right__texts {
